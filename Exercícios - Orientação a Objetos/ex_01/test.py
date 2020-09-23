@@ -1,0 +1,21 @@
+"""
+Exercício 01
+
+para ajudar na formatação de datas você deve criar uma nova classe auxiliar.
+Essa classe deve representar uma Data (sem hora) que sabe imprimir uma data formatada.
+Ela deve funcionar dessa forma:
+
+from datas import Data
+d = Data(10, 20, 2020)
+d.formatada()
+
+Imprime:
+    >> 10/20/2020
+
+Mãos à obra!
+"""
+
+from dates import Date
+
+d = Date(10, 20, 2020)
+print(d.format_date())
