@@ -1,0 +1,21 @@
+Exercício 04
+
+Crie uma classe para representar uma conta bancaria, com todos os atributos privados
+nome do titular, número da conta, saldo e limite. Considere o limite de 1000.0 reais,
+se o paramêtro limite não for passado na criação da conta. essa classe deve ter metódos
+sets e gets para os atributos nome do titular, saldo e limite (Use 'property' e 'setter').
+
+Ela deve funcionar dessa forma:
+
+from conta import Conta
+c = Conta('Maria', '12345', 25.0)
+
+print(f'Nome: {c.nome} - Saldo: {c.saldo} - Limite: {c.limite}')
+c.nome = 'Leo'
+print(f'Nome: {c.nome} - Saldo: {c.saldo} - Limite: {c.limite}')
+
+Imprime:
+        >> Nome: Maria - Saldo: 25.0 - Limite: 1000.0
+        >> Nome: Leo - Saldo: 25.0 - Limite: 1000.0
+
+Mãos à obra!
